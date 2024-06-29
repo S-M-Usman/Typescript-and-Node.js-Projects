@@ -1,0 +1,22 @@
+{
+  "name": "@smusman/project01_number_guessing-game",
+  "version": "3.0.0",
+  "description": "A number guessing game made with node.js, Typescript and Inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaikh Muhammad Usman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  },
+  "dependencies": {
+    "inquirer": "^9.3.1"
+  }
+}
