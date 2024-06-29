@@ -1,0 +1,22 @@
+{
+  "name": "@smusman/project00_cli-based-calculator",
+  "version": "4.0.0",
+  "description": "A simple Cli based calculator made from Typescipt, Javascript, Node.js and Inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaikh Muhammad Usman",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.3.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
