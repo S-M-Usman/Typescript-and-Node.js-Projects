@@ -1,0 +1,22 @@
+{
+  "name": "@smusman/project03_todolist",
+  "version": "2.1.0",
+  "description": "a simple todo list made using Node.js,Typescript,Javascript and Inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaikh Muhammad Usman",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.3.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
