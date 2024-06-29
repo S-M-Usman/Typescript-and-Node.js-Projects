@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 import chalk from "chalk";
 
-class QuizApp {
+class Quiz {
   questions: string[];
   correctAnswers: string[];
   constructor() {
@@ -110,5 +110,5 @@ class QuizApp {
   }
 }
 
-let quizApp = new QuizApp();
+let quizApp = new Quiz();
 quizApp.startQuiz();
