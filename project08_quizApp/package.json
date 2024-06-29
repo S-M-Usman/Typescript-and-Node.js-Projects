@@ -1,0 +1,26 @@
+{
+  "name": "@smusman/project08_quizapp",
+  "version": "1.0.0",
+  "description": "a quiz app made using typescript,node.js and Inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {"access": "public"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Shaikh",
+    "Muhammad",
+    "Usman"
+  ],
+  "author": "Shaikh Muhammad Usman",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.3.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
