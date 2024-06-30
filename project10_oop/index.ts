@@ -1,3 +1,4 @@
+#! ussr/bin/env node
 import inquirer from 'inquirer';
 import chalk from 'chalk';
 import { Person } from './person.js';
